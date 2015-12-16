@@ -12,4 +12,12 @@ public class A {
   public static void main(String[] args) throws Exception {
      a(i -> i + 1);
   }
+
+  private static int makeBla(int n, Bla bla) {
+    return bla.doIt();
+  }
+
+  public static int makeMeTwo(int n) {
+    return makeBla(n, i -> i + i);
+  }
 }
