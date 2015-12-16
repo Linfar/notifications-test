@@ -14,7 +14,7 @@ public class A {
   }
 
   private static int makeBla(int n, Bla bla) {
-    return bla.doIt();
+    return bla.doIt(n);
   }
 
   public static int makeMeTwo(int n) {
