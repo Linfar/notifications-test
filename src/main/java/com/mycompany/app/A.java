@@ -6,7 +6,7 @@ public class A {
   }
 
   public static void a(Bla bla) {
-     System.out.println(bla.doIt(2));
+     System.out.println(bla.doIt(3));
   }
 
   public static void main(String[] args) throws Exception {
