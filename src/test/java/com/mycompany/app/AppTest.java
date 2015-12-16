@@ -36,4 +36,11 @@ public class AppTest
         A.main(new String[0]);
         assertTrue( true );
     }
+
+    public void testMakeTwo() throws Exception
+    {
+        assertEquals(4, A.makeMeTwo(2));
+        assertEquals(6, A.makeMeTwo(3));
+        assertEquals(60, A.makeMeTwo(30));
+    }
 }
