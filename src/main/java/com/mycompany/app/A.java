@@ -13,6 +13,7 @@ public class A {
      a(i -> i + 1);
   }
 
+
   private static int makeBla(int n, Bla bla) {
     return bla.doIt(n);
   }
