@@ -20,4 +20,5 @@ public class A {
   public static int makeMeTwo(int n) {
     return makeBla(n, i -> i + i);
   }
+  
 }
